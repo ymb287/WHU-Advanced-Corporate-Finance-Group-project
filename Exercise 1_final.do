@@ -1,5 +1,5 @@
 /******************************************************************************************
- APPENDIX A — STATA DO-FILE (Baseline Event Study)
+ APPENDIX B — STATA DO-FILE (Baseline Event Study)
  Purpose : Estimate market model and compute AR, CAR, AAR, CAAR for [-2, +2] event window
  Author  : Yannik Biebert, Jakob Gruss, Cayetano Llaca Kuri, Julian Vincent Müller, Victoria Walf
  Course  : Advanced Corporate Finance
@@ -379,3 +379,4 @@ graph box CAR_w, over(event, label(angle(45) labsize(vsmall))) ///
 * Export figure as PNG
 graph export "`workdir'\CAR_boxplot_by_event_winsor_5_95.png", replace
 restore
+
