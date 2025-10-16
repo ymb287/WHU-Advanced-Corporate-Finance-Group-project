@@ -1,5 +1,5 @@
 /******************************************************************************************
- APPENDIX A — STATA DO-FILE (Analysis of Executive Compensation Data)
+ APPENDIX B — STATA DO-FILE (Analysis of Executive Compensation Data)
  Purpose : Estimate link between firm size, firm profitability, shareholder value and CEO compensation
  Author  : Yannik Biebert, Jakob Gruss, Cayetano Llaca Kuri, Julian Vincent Müller, Victoria Walf
  Course  : Advanced Corporate Finance
@@ -170,3 +170,4 @@ esttab D2, mtitles("2d(b) FE: Pay ~ MV + Year") ///
 * quick read for 2d.b:
 lincom mkvalt
 display as txt "FE (Pay~MV): $ per $1k ΔMV = " as res %9.4f r(estimate)
+
